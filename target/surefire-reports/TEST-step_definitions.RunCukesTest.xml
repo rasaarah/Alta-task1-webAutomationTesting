@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="37" failures="0" name="step_definitions.RunCukesTest" time="4.49" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrator\IdeaProjects\automation_sauce_2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\IdeaProjects\automation_sauce_2"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_341\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Python27;C:\Python27\Scripts;C:\Users\Administrator\course-python-selenium\MyBrowserDrivers;C:\Users\Administrator\course-python-selenium\selenium;C:\Program Files (x86)\Java\jdk1.8.0_341\;C:\Program Files\Git\cmd;C:\Program Files (x86)\apache-maven-3.8.6\bin;C:\Program Files (x86)\apache-maven-3.8.6\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\apache-maven-3.8.6;C:\Program Files (x86)\Java\jdk1.8.0_341;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ray"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_341\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="Scenario: Normal Login" name="Given user open the web page" time="0.003"/>
+  <testcase classname="Scenario: Normal Login" name="When User input &quot;standard_user&quot; as username and &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Then User is already on the landing page" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Scenario: Normal Login" time="0.867"/>
+  <testcase classname="| asd | password | Epic sadface: Username and password do not match any user in this service |" name="Given user open the web page" time="0"/>
+  <testcase classname="| asd | password | Epic sadface: Username and password do not match any user in this service |" name="When User input &quot;asd&quot; as username and &quot;password&quot; as password" time="0.001"/>
+  <testcase classname="| asd | password | Epic sadface: Username and password do not match any user in this service |" name="Then User see error &quot;Epic sadface: Username and password do not match any user in this service&quot; on login page" time="0"/>
+  <testcase classname="| asd | password | Epic sadface: Username and password do not match any user in this service |" name="| asd | password | Epic sadface: Username and password do not match any user in this service |" time="0.709"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="Given user open the web page" time="0"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="When User input &quot;standard_user&quot; as username and &quot;&quot; as password" time="0"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="Then User see error &quot;Epic sadface: Password is required&quot; on login page" time="0"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="| standard_user |  | Epic sadface: Password is required |" time="0.718"/>
+  <testcase classname="|  | password | Epic sadface: Username is required |" name="Given user open the web page" time="0"/>
+  <testcase classname="|  | password | Epic sadface: Username is required |" name="When User input &quot;&quot; as username and &quot;password&quot; as password" time="0"/>
+  <testcase classname="|  | password | Epic sadface: Username is required |" name="Then User see error &quot;Epic sadface: Username is required&quot; on login page" time="0"/>
+  <testcase classname="|  | password | Epic sadface: Username is required |" name="|  | password | Epic sadface: Username is required |" time="0.739"/>
+  <testcase classname="Scenario: User" name="Given user open the web page" time="0"/>
+  <testcase classname="Scenario: User" name="When User input &quot;standard_user&quot; as username and &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: User" name="And User is already on the landing page" time="0"/>
+  <testcase classname="Scenario: User" name="Then User sort &quot;Name (Z to A)&quot; and will see item sorting as expected" time="0"/>
+  <testcase classname="Scenario: User" name="And User pick &quot;Sauce Labs Onesie&quot; and &quot;Test.allTheThings() T-Shirt (Red)&quot; to chart" time="0.001"/>
+  <testcase classname="Scenario: User" name="Then User will see basket has been filled with item have been choose" time="0"/>
+  <testcase classname="Scenario: User" name="And User want to remove the last stuff have been added" time="0"/>
+  <testcase classname="Scenario: User" name="And User want to checkout then input &quot;Sarah&quot; as first name, &quot;Kamilah&quot; as lastname and &quot;1111&quot; as postal code" time="0"/>
+  <testcase classname="Scenario: User" name="Then User will see checkout information payment &quot;Item total: $7.99&quot; with &quot;Tax: $0.64&quot; and &quot;Total: $8.63&quot;" time="0"/>
+  <testcase classname="Scenario: User" name="Then User complete the transaction while see the &quot;Pony Express&quot; image" time="0"/>
+  <testcase classname="Scenario: User" name="Scenario: User" time="0.717"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="Given user open the web page" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="When User input &quot;standard_user&quot; as username and &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="And User is already on the landing page" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="Then User click on &quot;Sauce Labs Backpack&quot; to see detail of product" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="And User click on &quot;Sauce Labs Bike Light&quot; to see detail of product" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="And User click on &quot;Sauce Labs Bolt T-Shirt&quot; to see detail of product" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="And User click on &quot;Sauce Labs Fleece Jacket&quot; to see detail of product" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="And User click on &quot;Sauce Labs Onesie&quot; to see detail of product" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="And User click on &quot;Test.allTheThings() T-Shirt (Red)&quot; to see detail of product" time="0"/>
+  <testcase classname="Scenario: Click on item who showed on the list" name="Scenario: Click on item who showed on the list" time="0.735"/>
+</testsuite>
